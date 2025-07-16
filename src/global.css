@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+@custom-variant hover (&:hover);
+
+@theme inline {
+  --color-primary-50: var(--color-primary-50);
+  --color-primary-100: var(--color-primary-100);
+  --color-primary-200: var(--color-primary-200);
+  --color-primary-300: var(--color-primary-300);
+  --color-primary-400: var(--color-primary-400);
+  --color-primary-500: var(--color-primary-500);
+  --color-primary-600: var(--color-primary-600);
+  --color-primary-700: var(--color-primary-700);
+  --color-primary-800: var(--color-primary-800);
+  --color-primary-900: var(--color-primary-900);
+  --color-primary-950: var(--color-primary-950);
+
+  --color-body: var(--color-neutral-950);
+  --color-body-light: var(--color-neutral-900);
+  --color-body-lighter: var(--color-neutral-800);
+  --color-body-lightest: var(--color-neutral-700);
+
+  --color-text: var(--color-neutral-50);
+  --color-text-dark: var(--color-neutral-300);
+  --color-text-darker: var(--color-neutral-400);
+
+  --color-border: var(--color-neutral-50);
+  --color-border-dark: var(--color-neutral-400);
+
+  --color-divider: var(--color-neutral-50);
+  --color-divider-dark: var(--color-neutral-400);
+
+  --color-hover: var(--color-primary-400);
+
+  --color-skeleton: var(--color-neutral-800);
+
+  --spacing-container: var(--fluid-16-48);
+
+  --spacing-section: var(--fluid-48-96);
+
+  --spacing-faces: var(--fluid-32-96);
+
+  --text-fluid-12-20: var(--fluid-12-20);
+  --text-fluid-18-24: var(--fluid-18-24);
+  --text-fluid-20-30: var(--fluid-20-30);
+  --text-fluid-24-36: var(--fluid-24-36);
+  --text-fluid-30-48: var(--fluid-30-48);
+  --text-fluid-36-60: var(--fluid-36-60);
+}
+
+:root {
+  --color-primary-50: #d8d7ff;
+  --color-primary-100: #bebcff;
+  --color-primary-200: #9d9aff;
+  --color-primary-300: #7c78ff;
+  --color-primary-400: #5c57ff;
+  --color-primary-500: #3b35ff;
+  --color-primary-600: #312cd4;
+  --color-primary-700: #2723aa;
+  --color-primary-800: #1d1a7f;
+  --color-primary-900: #141255;
+  --color-primary-950: #0c0b33;
+
+  --fluid-16-48: clamp(1rem, -0.2rem + 5vw, 3rem);
+  --fluid-32-96: clamp(2rem, -0.4rem + 10vw, 6rem);
+  --fluid-48-96: clamp(3rem, 1.2rem + 7.5vw, 6rem);
+
+  --fluid-12-20: clamp(0.75rem, 0.45rem + 1.25vw, 1.25rem);
+  --fluid-18-24: clamp(1.125rem, 0.9rem + 0.9375vw, 1.5rem);
+  --fluid-20-30: clamp(1.25rem, 0.875rem + 1.5625vw, 1.875rem);
+  --fluid-24-36: clamp(1.5rem, 1.05rem + 1.875vw, 2.25rem);
+  --fluid-30-48: clamp(1.875rem, 1.2rem + 2.8125vw, 3rem);
+  --fluid-36-60: clamp(2.25rem, 1.35rem + 3.75vw, 3.75rem);
+}
+
+@layer base {
+  * {
+    @apply outline-none;
+  }
+}
+
+/* ########################################################################## */
+/* # Swiper                                                                   */
+/* ########################################################################## */
+
+.swiper {
+  display: grid !important;
+}
+
+.swiper-wrapper {
+  min-width: 0 !important;
+  transition-timing-function: linear !important;
+}
+
+/* ########################################################################## */
+/* # @keyframes                                                               */
+/* ########################################################################## */
+
+@keyframes slide {
+  100% {
+    top: -135px;
+  }
+}
+
+@keyframes typing {
+  25%,
+  50% {
+    right: calc(100% - 2px);
+  }
+
+  100% {
+    right: 0;
+  }
+}
