@@ -16,9 +16,7 @@ export default function Title() {
       {/* # title                          */}
       {/* ################################ */}
 
-      <span className="text-fluid-30-48 shrink-0">
-        ارزش‌های استودیو اندیشــــه
-      </span>
+      <span className="text-fluid-30-48 shrink-0">Thirdline Studio Values</span>
 
       {/* ################################ */}
       {/* # Line (viewport < 1024)         */}
@@ -26,7 +24,7 @@ export default function Title() {
 
       <span
         className={cn(
-          "bg-primary-500 absolute -top-2 right-0 h-1 w-[calc(var(--fluid-30-48)*4)] rounded-full",
+          "bg-primary-500 absolute -top-2 left-0 h-1 w-[calc(var(--fluid-30-48)*4)] rounded-full",
           "lg:hidden",
         )}
       />

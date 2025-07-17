@@ -5,7 +5,7 @@
 // #############################################################################
 
 // node_modules
-import { ArrowUpLeft } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
@@ -112,9 +112,9 @@ export default function ProjectsBASE({
           href={href}
           className="border-primary-400 text-primary-400 flex items-center justify-center gap-2 rounded-sm border-2 p-2 text-sm"
         >
-          <span>مشاهده پروژه</span>
+          <span>View project</span>
 
-          <ArrowUpLeft />
+          <ArrowUpRight />
         </Link>
       </div>
     </div>

@@ -34,7 +34,7 @@ export default function CardsLG() {
             "relative flex h-80 w-full flex-col items-start justify-end gap-2 overflow-hidden rounded-lg px-4 transition-all duration-200",
             isExpanded(index)
               ? "bg-primary-500 min-w-lg"
-              : "bg-body-lighter min-w-36",
+              : "bg-body-lighter min-w-40",
           )}
           onMouseEnter={() => handleCardHover(index)}
         >
@@ -64,10 +64,8 @@ export default function CardsLG() {
 
             <h4
               className={cn(
-                "flex w-64",
-                isExpanded(index)
-                  ? "items-center gap-1 text-xl font-bold"
-                  : "flex-col",
+                "flex h-14 w-64 flex-col",
+                isExpanded(index) && "text-xl font-bold",
               )}
             >
               <span>{title[0]}</span>
@@ -82,7 +80,7 @@ export default function CardsLG() {
 
           <p
             className={cn(
-              "text-text-dark h-[72px] w-[464px] text-justify",
+              "text-text-dark h-[72px] w-[480px] text-justify",
               isExpanded(index) ? "-translate-y-[35px]" : "translate-y-[70px]",
             )}
           >

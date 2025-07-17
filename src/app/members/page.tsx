@@ -15,9 +15,9 @@ import Components from "@/features/members/components";
 // #############################################################################
 
 export const metadata: Metadata = {
-  title: "اهالی اندیشه",
+  title: "Thirdline Members",
   description:
-    "با اعضای تیم استودیو نوآوری اندیشه آشنا شوید. تیمی از متخصصان خلاق و متعهد که در کنار یکدیگر برای تحقق اهداف بزرگ تلاش می‌کنند.",
+    "Meet the members of Thirdline Innovation Studio. A team of creative and committed specialists who strive together to achieve great goals.",
 };
 
 // #############################################################################
@@ -29,11 +29,8 @@ export default function Members() {
     <>
       <main>
         <Title
-          title="اهالی اندیشــــه"
-          description="استودیو اندیشه را ساختارها نساخته‌اند، انسان‌ها ساخته‌اند. اینجا با
-            چهره‌هایی آشنا می‌شوید که در شکل‌گیری، پیش‌برد و آینده‌ی اندیشه نقش
-            دارند؛ از هم‌بنیان‌گذاران تا نسل جدیدی که در حال ساخت ادامه‌ی
-            مسیرند."
+          title="Thirdline Members"
+          description="Thirdline Studio is not built by structures, it is built by people. Here you will get to know the faces that have a role in the formation, advancement and future of Thirdline; from the co-founders to the new generation that is building the rest of the way."
         />
 
         <Components />

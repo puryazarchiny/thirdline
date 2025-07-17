@@ -6,13 +6,13 @@ export default function Content() {
   return (
     <hgroup className="flex flex-col gap-4">
       <h1 className="text-fluid-36-60 flex flex-col">
-        <span>اســــتودیو</span>
+        <span>Thirdline</span>
 
-        <span>نوآوری اندیشــــه</span>
+        <span>Innovation Studio</span>
       </h1>
 
       <p className="text-fluid-20-30 text-text-darker">
-        رویاتو بســــاز و آینده‌تو شــــکل بده
+        Build your dream and shape your future
       </p>
     </hgroup>
   );

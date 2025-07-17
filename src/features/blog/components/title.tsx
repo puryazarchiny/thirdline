@@ -20,13 +20,14 @@ export default function Title() {
             "sm:text-fluid-36-60 sm:flex sm:flex-col sm:gap-4 sm:text-center",
           )}
         >
-          <span>روایت شکل‌گیری اندیشه؛</span>
+          <span>The Story of Thirdline&apos;s Formation;</span>
 
-          <span>نه یک شروع، بلکه یک تصمیم</span>
+          <span>Not a Beginning, but a Decision</span>
         </h2>
 
         <h2 className={cn("text-fluid-36-60 text-center", "sm:hidden")}>
-          روایت شکل‌گیری اندیشه؛ نه یک شروع، بلکه یک تصمیم
+          The Story of Thirdline&apos;s Formation; Not a Beginning, but a
+          Decision
         </h2>
       </Container>
     </header>

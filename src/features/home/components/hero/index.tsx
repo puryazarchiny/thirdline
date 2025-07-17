@@ -22,7 +22,7 @@ export default function Hero() {
 
           <Content />
 
-          <A href="/members">با اهالی اندیشه آشنا شوید</A>
+          <A href="/members">Meet the people of Thirdline</A>
         </div>
       </Container>
     </section>

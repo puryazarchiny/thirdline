@@ -32,11 +32,13 @@ export default function Post() {
         <Link href="/blogs/blog">
           <hgroup className="flex flex-col gap-2">
             <h3 className="text-xl">
-              روایت شکل‌گیری اندیشه؛ نه یک شروع، بلکه یک تصمیم
+              The Story of Thirdline&apos;s Formation; Not a Beginning, but a
+              Decision
             </h3>
 
             <p className="text-text-darker">
-              روایت شکل‌گیری اندیشه؛ نه یک شروع، بلکه یک تصمیم
+              The Story of Thirdline&apos;s Formation; Not a Beginning, but a
+              Decision
             </p>
           </hgroup>
         </Link>
@@ -49,13 +51,13 @@ export default function Post() {
           <div className="flex gap-2">
             <User size={16} />
 
-            <span className="text-text-dark">خاتون ایرانی</span>
+            <span className="text-text-dark">Khatoon Irani</span>
           </div>
 
           <div className="flex gap-2">
             <Calendar size={16} />
 
-            <span className="text-text-dark">۱ اردیبهشت ۱۴۰۴</span>
+            <span className="text-text-dark">April 21, 2025</span>
           </div>
         </div>
 
@@ -64,7 +66,7 @@ export default function Post() {
         {/* ################################ */}
 
         <div className="flex justify-between">
-          <p className="bg-body-lightest rounded-sm p-2 text-xs">تگ موضوع</p>
+          <p className="bg-body-lightest rounded-sm p-2 text-xs">Topic Tag</p>
 
           <button type="button" className="cursor-pointer">
             <Share2 />

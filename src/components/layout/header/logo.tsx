@@ -18,7 +18,7 @@ export default function Logo() {
     <Link href="/">
       <Image
         src="/icons/logo-dark.svg"
-        alt="لوگو استودیو نوآوری اندیشه"
+        alt="Thirdline Innovation Studio Logo"
         width={32}
         height={32}
         className={cn("size-8", "sm:size-12")}

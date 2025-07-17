@@ -31,7 +31,7 @@ export default function CardsBASE() {
             {/* # title                          */}
             {/* ################################ */}
 
-            <h4 className="flex gap-1 text-xl font-bold">
+            <h4 className="flex flex-col gap-1 text-xl font-bold">
               <span>{title[0]}</span>
 
               <span>{title[1]}</span>
@@ -42,7 +42,7 @@ export default function CardsBASE() {
           {/* # Description                    */}
           {/* ################################ */}
 
-          <p className="text-text-dark text-justify">{description}</p>
+          <p className="text-text-dark">{description}</p>
         </li>
       ))}
     </ul>

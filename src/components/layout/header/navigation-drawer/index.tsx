@@ -37,7 +37,7 @@ export default function NavigationDrawer() {
   };
 
   return (
-    <Drawer.Root direction="right">
+    <Drawer.Root direction="left">
       <Drawer.Trigger
         ref={triggerRef}
         className="cursor-pointer"

@@ -18,14 +18,14 @@ export default function Intro() {
       <Container>
         <div className="flex flex-col gap-16">
           <Section
-            title="ورود به یک ساختار"
+            title="Entering a Structure"
             description={DATA[0]}
             textDirection="right"
             imageDirection="left"
           />
 
           <Section
-            title="رویکرد ما در همراهی"
+            title="Our Approach to Accompaniment"
             description={DATA[1]}
             textDirection="left"
             imageDirection="right"

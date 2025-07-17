@@ -18,9 +18,9 @@ import Timeline from "@/features/roads/components/timeline";
 // #############################################################################
 
 export const metadata: Metadata = {
-  title: "مسیرهای اندیشه",
+  title: "Thirdline Roads",
   description:
-    "با مسیرهای همکاری استودیو نوآوری اندیشه آشنا شوید. ما با ارائه راهکارهای متنوع، شما را در مراحل مختلف رشد کسب‌وکارتان همراهی می‌کنیم.",
+    "Get to know the cooperation paths of Thirdline Innovation Studio. We accompany you in different stages of your business growth by providing various solutions.",
 };
 
 // #############################################################################
@@ -32,9 +32,8 @@ export default function Roads() {
     <>
       <main className="self-center">
         <Title
-          title="مسیرهای اندیشــــه"
-          description="مسیرهایی با عمق واقعی؛ از ایده تا اثر، با ساختاری که خلق را به نتیجه
-            می‌رساند"
+          title="Thirdline Roads"
+          description="Paths with real depth; from idea to effect, with a structure that brings creation to a result"
         />
 
         <Gallery />

@@ -4,7 +4,7 @@
 
 // node_modules
 import { type Metadata } from "next";
-import localFont from "next/font/local";
+import { Inter } from "next/font/google";
 import { ReactNode } from "react";
 
 // src
@@ -17,16 +17,18 @@ import "@/global.css";
 // # Fonts
 // #############################################################################
 
-const dana = localFont({ src: "../../public/fonts/dana.woff2" });
+const inter = Inter({
+  subsets: ["latin"],
+});
 
 // #############################################################################
 // # Metadata
 // #############################################################################
 
 export const metadata: Metadata = {
-  title: "استودیو نوآوری اندیشه",
+  title: "Thirdline Innovation Studio",
   description:
-    "استودیو نوآوری اندیشه، فضایی برای خلق و پرورش ایده‌های نو و تبدیل آن‌ها به کسب‌وکارهای موفق. ما در اندیشه با ارائه خدمات متنوع در حوزه‌های طراحی، توسعه و استراتژی، شما را در مسیر تحقق رویاهایتان همراهی می‌کنیم.",
+    "Thirdline Innovation Studio, a space for creating and nurturing new ideas and turning them into successful businesses. At Thirdline, we support you in realizing your dreams by providing diverse services in design, development, and strategy.",
   icons: [
     {
       media: "(prefers-color-scheme: light)",
@@ -53,10 +55,10 @@ type RootProps = {
 
 export default function Root({ children }: RootProps) {
   return (
-    <html dir="rtl" lang="fa">
+    <html lang="en">
       <body
         className={cn(
-          dana.className,
+          inter.className,
           "bg-body text-text grid min-h-svh grid-rows-[auto_1fr_auto]",
         )}
       >

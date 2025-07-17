@@ -22,7 +22,7 @@ export default function CategoriesBASE() {
   // #####################################
 
   const [isOpen, setIsOpen] = useState(false);
-  const [selectedValue, setSelectedValue] = useState("دسته‌بندی‌ها ۱");
+  const [selectedValue, setSelectedValue] = useState("Category 1");
 
   // #####################################
   // # Refs

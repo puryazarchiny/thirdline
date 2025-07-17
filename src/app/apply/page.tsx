@@ -19,9 +19,9 @@ import Steps from "@/features/apply/components/steps";
 // #############################################################################
 
 export const metadata: Metadata = {
-  title: "همراهی اندیشه",
+  title: "Thirdline Accompaniment",
   description:
-    "با اندیشه، مسیر ساخت، رشد و تجاری‌سازی کسب‌وکارهای نوآورانه را آغاز کنید. برای شروع همکاری و ارسال درخواست، از این صفحه اقدام کنید.",
+    "Start the journey of building, growing, and commercializing innovative businesses with Thirdline. To start cooperation and send a request, use this page.",
 };
 
 // #############################################################################
@@ -33,9 +33,8 @@ export default function Apply() {
     <>
       <main>
         <Title
-          title="همراهی اندیشــــه"
-          description="ورود به یک مسیر واقعی برای ساخت، رشد و تجاری‌سازی کسب‌وکارهای
-            نوآورانه"
+          title="Thirdline Accompaniment"
+          description="Entering a real path for building, growing, and commercializing innovative businesses"
         />
 
         <Gallery />

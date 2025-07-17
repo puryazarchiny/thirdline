@@ -2,75 +2,75 @@
 // # Data
 // #############################################################################
 
-export const TABS = ["هم‌بنیان‌گذران", "اعضای کلیدی", "همراهان"];
+export const TABS = ["Co-founders", "Key Members", "Companions"];
 
 export const PERSONS = {
   coFounders: [
     {
       image: "",
-      name: "کیان زارع",
-      role: "بنیان‌گذار و مدیرعامل",
+      name: "Kian Zare",
+      role: "Founder and CEO",
       socials: [
-        { href: "", src: "/icons/linkedin.svg", alt: "آیکون لینکدین" },
-        { href: "", src: "/icons/x.svg", alt: "آیکون شبکه اجتماعی ایکس" },
+        { href: "", src: "/icons/linkedin.svg", alt: "LinkedIn icon" },
+        { href: "", src: "/icons/x.svg", alt: "X social media icon" },
       ],
     },
     {
       image: "",
-      name: "علی موسوی",
-      role: "هم‌بنیان‌گذار و رئیس هیئت مدیره",
+      name: "Ali Mousavi",
+      role: "Co-founder and Chairman of the Board",
       socials: [
-        { href: "", src: "/icons/linkedin.svg", alt: "آیکون لینکدین" },
-        { href: "", src: "/icons/x.svg", alt: "آیکون شبکه اجتماعی ایکس" },
+        { href: "", src: "/icons/linkedin.svg", alt: "LinkedIn icon" },
+        { href: "", src: "/icons/x.svg", alt: "X social media icon" },
       ],
     },
     {
       image: "",
-      name: "بهزاد بوستانچی",
-      role: "هم‌بنیان‌گذار و عضو هیئت مدیره",
+      name: "Behzad Boostanchi",
+      role: "Co-founder and Member of the Board",
       socials: [
-        { href: "", src: "/icons/linkedin.svg", alt: "آیکون لینکدین" },
-        { href: "", src: "/icons/x.svg", alt: "آیکون شبکه اجتماعی ایکس" },
+        { href: "", src: "/icons/linkedin.svg", alt: "LinkedIn icon" },
+        { href: "", src: "/icons/x.svg", alt: "X social media icon" },
       ],
     },
     {
       image: "",
-      name: "غزاله قنبری",
-      role: "هم‌بنیان‌گذار و راهبر حوزه سلامت",
+      name: "Ghazaleh Ghanbari",
+      role: "Co-founder and Health Area Leader",
       socials: [
-        { href: "", src: "/icons/linkedin.svg", alt: "آیکون لینکدین" },
-        { href: "", src: "/icons/x.svg", alt: "آیکون شبکه اجتماعی ایکس" },
+        { href: "", src: "/icons/linkedin.svg", alt: "LinkedIn icon" },
+        { href: "", src: "/icons/x.svg", alt: "X social media icon" },
       ],
     },
     {
       image: "",
-      name: "آیدین شاهی",
-      role: "هم‌بنیان‌گذار و مدیر هنری",
+      name: "Aidin Shahi",
+      role: "Co-founder and Art Director",
       socials: [
-        { href: "", src: "/icons/linkedin.svg", alt: "آیکون لینکدین" },
-        { href: "", src: "/icons/x.svg", alt: "آیکون شبکه اجتماعی ایکس" },
+        { href: "", src: "/icons/linkedin.svg", alt: "LinkedIn icon" },
+        { href: "", src: "/icons/x.svg", alt: "X social media icon" },
       ],
     },
   ],
   keyMembers: [
     {
       image: "",
-      name: "لورم ایپسوم",
-      role: "لورم ایپسوم متن ساختگی",
+      name: "Lorem Ipsum",
+      role: "Lorem Ipsum dummy text",
       socials: [
-        { href: "", src: "/icons/linkedin.svg", alt: "آیکون لینکدین" },
-        { href: "", src: "/icons/x.svg", alt: "آیکون شبکه اجتماعی ایکس" },
+        { href: "", src: "/icons/linkedin.svg", alt: "LinkedIn icon" },
+        { href: "", src: "/icons/x.svg", alt: "X social media icon" },
       ],
     },
   ],
   companion: [
     {
       image: "",
-      name: "لورم ایپسوم",
-      role: "لورم ایپسوم متن ساختگی",
+      name: "Lorem Ipsum",
+      role: "Lorem Ipsum dummy text",
       socials: [
-        { href: "", src: "/icons/linkedin.svg", alt: "آیکون لینکدین" },
-        { href: "", src: "/icons/x.svg", alt: "آیکون شبکه اجتماعی ایکس" },
+        { href: "", src: "/icons/linkedin.svg", alt: "LinkedIn icon" },
+        { href: "", src: "/icons/x.svg", alt: "X social media icon" },
       ],
     },
   ],

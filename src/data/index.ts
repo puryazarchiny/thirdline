@@ -4,19 +4,19 @@
 
 export const FOOTER = [
   {
-    href: "https://www.linkedin.com/company/andisheh-innovation-studio",
+    href: "#",
     src: "/icons/linkedin.svg",
-    alt: "آیکون لینکدین",
+    alt: "LinkedIn icon",
   },
-  { href: "#", src: "/icons/phone.svg", alt: "آیکون تلفن" },
-  { href: "#", src: "/icons/mail.svg", alt: "آیکون پست الکترونیک" },
+  { href: "#", src: "/icons/phone.svg", alt: "Phone icon" },
+  { href: "#", src: "/icons/mail.svg", alt: "Mail icon" },
 ];
 
 export const NAV = [
-  { href: "/about", label: "درباره اندیشه" },
-  { href: "/members", label: "اهالی اندیشه" },
-  { href: "/roads", label: "مسیرهای اندیشه" },
-  { href: "/apply", label: "همراهی اندیشه" },
-  { href: "/portfolio", label: "آثار اندیشه" },
-  { href: "/blogs", label: "جریان اندیشه" },
+  { href: "/about", label: "Thirdline Cognition" },
+  { href: "/members", label: "Thirdline Members" },
+  { href: "/roads", label: "Thirdline Roads" },
+  { href: "/apply", label: "Thirdline Accompaniment" },
+  { href: "/portfolio", label: "Thirdline Portfolio" },
+  { href: "/blogs", label: "Thirdline Flow" },
 ];

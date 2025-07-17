@@ -22,7 +22,7 @@ export default function TopPostsBASE() {
   // #####################################
 
   const [isOpen, setIsOpen] = useState(false);
-  const [selectedValue, setSelectedValue] = useState("همه پست‌های جریان");
+  const [selectedValue, setSelectedValue] = useState("All Flow Posts");
 
   // #####################################
   // # Refs

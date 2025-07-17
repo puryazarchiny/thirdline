@@ -50,14 +50,14 @@ export default function Section({
         <h3 className="relative">
           <span className="text-fluid-30-48">{title}</span>
 
-          <span className="bg-primary-500 absolute -top-2 right-0 h-1 w-[calc(var(--fluid-30-48)*4)] rounded-full" />
+          <span className="bg-primary-500 absolute -top-2 left-0 h-1 w-[calc(var(--fluid-30-48)*4)] rounded-full" />
         </h3>
 
         {/* ################################ */}
         {/* # Description                    */}
         {/* ################################ */}
 
-        <div className="text-text-dark flex flex-col gap-2 text-justify">
+        <div className="text-text-dark flex flex-col gap-2">
           {description.map((paragraph, index) => (
             <p key={index}>{paragraph}</p>
           ))}

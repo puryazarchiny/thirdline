@@ -26,7 +26,7 @@ export default function Projects() {
   // # States
   // #####################################
 
-  const [selectedValue, setSelectedValue] = useState("همه نمونه‌ها");
+  const [selectedValue, setSelectedValue] = useState("All Samples");
   const [activeTab, setActiveTab] = useState(0);
   const [hoveredProject, setHoveredProject] = useState<number | null>(null);
 
@@ -35,7 +35,7 @@ export default function Projects() {
   // #####################################
 
   const selectedValueProjects =
-    selectedValue === "همه نمونه‌ها"
+    selectedValue === "All Samples"
       ? DATA[1]
       : DATA[1].filter((project) => project.category.includes(selectedValue));
 

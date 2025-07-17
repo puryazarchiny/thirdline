@@ -3,50 +3,53 @@
 // #############################################################################
 
 export const DESCRIPTION = [
-  "این پروژه با هدف طراحی یک زیست‌بوم یکپارچه خدمات سالمندی شکل گرفته؛ پلتفرمی که خدمات پزشکی، مراقبتی، روان‌شناختی، اجتماعی و سبک زندگی را در کنار یکدیگر و با ساختاری دیجیتال و هوشمند ارائه می‌دهد.",
-  "ریشه تلاش می‌کند سالمندی را نه به‌عنوان یک بحران، بلکه به‌عنوان یک فرصت تمدنی و اقتصادی ببیند؛ بستری که در آن سالمندان، خانواده‌ها و ارائه‌دهندگان خدمات در ارتباطی ساده، انسانی و داده‌محور قرار می‌گیرند. این پلتفرم قرار است با نگاهی چندسویه، از طراحی تجربه کاربر تا زیرساخت‌های مدیریت داده و استانداردهای مراقبتی، تحولی در کیفیت زندگی سالمندان در ایران ایجاد کند.",
+  "This project was formed with the goal of designing an integrated ecosystem of elderly services; a platform that provides medical, care, psychological, social, and lifestyle services together with a digital and smart structure.",
+  "Risheh tries to see aging not as a crisis, but as a civilizational and economic opportunity; a platform where the elderly, families, and service providers are in a simple, humane, and data-driven relationship. This platform is intended to create a transformation in the quality of life of the elderly in Iran with a multi-faceted view, from user experience design to data management infrastructures and care standards.",
 ];
 
 export const DETAILS = [
-  { q: "حوزه فعالیت", a: "نوآوری و سلامت" },
-  { q: "نوع همراهی استودیو", a: "هم‌بنیان‌گذاری" },
-  { q: "نوع خدمات استودیو", a: "کشف، خلق، توسعه، تجاری‌سازی و جذب سرمایه" },
-  { q: "وضعیت پروژه", a: "در حال توسعه" },
-  { q: "آغاز پروژه", a: "دی ۱۴۰۳" },
-  { q: "پایان پروژه", a: "در حال اجرا" },
+  { q: "Field of activity", a: "Innovation and Health" },
+  { q: "Studio's type of involvement", a: "Co-founding" },
+  {
+    q: "Type of studio services",
+    a: "Discovery, creation, development, commercialization, and fundraising",
+  },
+  { q: "Project status", a: "In development" },
+  { q: "Project start", a: "January 2025" },
+  { q: "Project end", a: "In progress" },
 ];
 
 export const LINKS = [
   {
     href: "#",
     src: "/icons/web.svg",
-    alt: "وبسایت",
+    alt: "Website",
   },
   {
     href: "#",
     src: "/icons/playstore.svg",
-    alt: "گوگل پلی",
+    alt: "Google Play",
   },
   {
     href: "#",
     src: "/icons/appstore.svg",
-    alt: "اپ استور",
+    alt: "App Store",
   },
   {
     href: "#",
     src: "/icons/linkedin.svg",
-    alt: "لینکدین",
+    alt: "LinkedIn",
   },
   {
     href: "#",
     src: "/icons/instagram.svg",
-    alt: "اینستاگرام",
+    alt: "Instagram",
   },
 ];
 
 export const ROLE = [
-  "ریشه یکی از پروژه‌هایی‌ست که از ابتدا در استودیو اندیشه متولد شد. استودیو، به‌عنوان بنیان‌گذار پروژه، از مرحله ایده‌پردازی، تعریف مسئله، ساخت تیم، تدوین مدل سهامی و طراحی مسیر توسعه، مسئولیت کل فرآیند را بر عهده گرفت.",
-  "از فاز «کشف» با تحقیق میدانی، تدوین نقشه ذی‌نفعان، مصاحبه‌های عمیق و تحلیل بازار شروع کردیم و در ادامه، مدل کسب‌وکار، هویت برند، طراحی تجربه کاربر، معماری سرویس، و سناریوهای رشد در فاز «خلق» توسط تیم استودیو طراحی شد.",
-  "در ادامه، با تشکیل تیم فنی و عملیاتی، وارد فاز توسعه MVP شدیم و هم‌زمان، استراتژی ESOP را برای جذب و نگهداشت متخصصان تدوین و اجرا کردیم. فرآیند جذب سرمایه نیز به‌طور کامل توسط استودیو انجام شد و موفق شدیم تأمین سرمایه اولیه را از هلدینگ فاخر دریافت کنیم.",
-  "اکنون ریشه در مرحله توسعه محصول اولیه قرار دارد و استودیو اندیشه همچنان به‌عنوان راهبر رشد، توسعه‌دهنده زیرساخت و شریک تجاری‌سازی در کنار تیم باقی مانده است.",
+  "Risheh is one of the projects that was born in Thirdline Studio from the very beginning. The studio, as the project's founder, took responsibility for the entire process from the ideation stage, problem definition, team building, stock model formulation, and development path design.",
+  "We started from the 'Discovery' phase with field research, stakeholder map development, in-depth interviews, and market analysis. Later, the business model, brand identity, user experience design, service architecture, and growth scenarios were designed by the studio team in the 'Creation' phase.",
+  "Next, by forming the technical and operational team, we entered the MVP development phase and simultaneously formulated and implemented the ESOP strategy to attract and retain specialists. The fundraising process was also fully handled by the studio, and we successfully secured the initial seed capital from Fakher Holding.",
+  "Risheh is now in the initial product development stage, and Thirdline Studio remains with the team as a growth strategist, infrastructure developer, and commercialization partner.",
 ];

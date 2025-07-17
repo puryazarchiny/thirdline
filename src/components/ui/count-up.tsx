@@ -8,7 +8,7 @@
 import { useEffect, useRef, useState } from "react";
 
 // src
-import { formatNumber } from "@/utils";
+import { cn } from "@/utils";
 
 // #############################################################################
 // # Types
@@ -97,8 +97,14 @@ export default function CountUp({ end }: CountUpProps) {
   // ################################
 
   return (
-    <p ref={countRef} className="text-fluid-36-60">
-      {formatNumber(count)}+
+    <p
+      ref={countRef}
+      className={cn(
+        "w-20 text-center font-mono text-4xl",
+        "lg:w-auto lg:text-6xl",
+      )}
+    >
+      +{count}
     </p>
   );
 }

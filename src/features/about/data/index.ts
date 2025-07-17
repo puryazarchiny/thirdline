@@ -16,199 +16,180 @@ type Story = [
 
 export const BELIEFS = [
   {
-    title: "بیانیه مأموریت",
-    subTitle: "ما چه می‌سازیم و چرا؟",
+    title: "Mission Statement",
+    subTitle: "What are we building and why?",
     description:
-      "ما ایده‌ها را به واقعیت تبدیل می‌کنیم؛ با طراحی، توسعه و تجاری‌سازی راه‌حل‌های پایدار. مأموریت ما اتصال نوآوران، کسب‌وکارها و سرمایه‌گذاران است، در مسیری که ریسک شکست را کاهش می‌دهد و کیفیت ورود به بازار را بالا می‌برد.",
+      "We turn ideas into reality—through the design, development, and commercialization of sustainable solutions. Our mission is to connect innovators, businesses, and investors in a path that reduces the risk of failure and increases market readiness.",
   },
   {
-    title: "بیانیه چشم‌انداز",
-    subTitle: "به کدام آینده نگاه می‌کنیم؟",
+    title: "Vision Statement",
+    subTitle: "What future are we aiming for?",
     description:
-      "ما آینده‌ای را می‌سازیم که در آن راه‌حل‌ها از مرزهای ذهنی و جغرافیایی عبور کنند و اثرگذاری واقعی، پایدار و انسانی داشته باشند. چشم‌انداز ما، نسل بعدی نوآوری‌هایی است که می‌شود با آن‌ها زندگی کرد، نه فقط سرمایه‌گذاری.",
+      "We are building a future where solutions transcend mental and geographic boundaries, having real, sustainable, and human impact. Our vision is the next generation of innovations you can live with—not just invest in.",
   },
   {
-    title: "مسئولیت اجتماعی",
-    subTitle: "نوآوری، فقط خلق ثروت نیست",
+    title: "Social Responsibility",
+    subTitle: "Innovation is not just about creating wealth",
     description:
-      "ما مسئولیت اجتماعی را بخشی از هویت خود می‌دانیم. از توانمندسازی نسل Z تا آموزش‌های عمومی و ساخت ساختارهای انتقال تجربه با دانشگاه‌ها، مأموریت ما خلق فرصت برای آینده‌ای بهتر است؛ فرصتی برای همه، نه فقط برای سرمایه‌پذیران.",
+      "We consider social responsibility a part of our identity. From empowering Gen Z to public education and building experience-sharing structures with universities, our mission is to create opportunities for a better future—for everyone, not just for investees.",
   },
   {
-    title: "فرهنگ کاری",
-    subTitle: "ما چطور فکر می‌کنیم، چطور کار می‌کنیم",
+    title: "Work Culture",
+    subTitle: "How we think and work",
     description:
-      "در اندیشه، فرهنگ یعنی رفتار روزمره. ما با اعتماد متقابل، یادگیری پیوسته و گفت‌وگوی واقعی کار می‌کنیم. نه با ساختار خشک، بلکه با بلوغ. این فرهنگ بستر انسانی ما برای ساختن پروژه‌های واقع‌گرایانه است.",
+      "At Thirdline, culture means daily behavior. We work through mutual trust, continuous learning, and real dialogue—not with rigid structures, but with maturity. This culture is our human foundation for building realistic projects.",
   },
 ];
 
 export const STORY: Story = [
   [
-    "آبان ۱۳۹۹، در یک گفت‌وگوی دوستانه، کیان زارع، از نبود سرمایه‌گذار «خوب» می‌گفت و علی موسوی، مدیرعامل یک صندوق سرمایه‌گذاری، از سختی پیدا کردن تیم‌های «خوب» و قابل اعتماد. اینجا بود که یک سؤال کلیدی شکل گرفت که اصلا معنای «خوب» چیست؟ پاسخ روشن بود؛",
-    "نه برای سرمایه‌گذار، نه برای سرمایه‌پذیر، تعریف دقیقی از «خوب» وجود نداشت. همان‌جا ایده‌ی شکل‌گیری بستری برای بازتعریف این رابطه متولد شد و کیان و غزاله قنبری، طراح تجربه کاربری، مدل‌هایی طراحی کردند که فرایند سرمایه‌گذاری و ساخت تیم را دوباره معنا می‌کرد. سپس بهزاد بوستانچی، توسعه‌دهنده‌ای با سابقه بین‌المللی در شرکت‌های بزرگی نظیر اپل، به جمع آن‌ها پیوست.",
-    "در بهمن ۱۳۹۹، قرارداد هم‌بنیان‌گذاری استودیو اندیشه بین کیان، علی، غزاله و بهزاد بسته شد. در تیر ماه ۱۴۰۰، این تیم به عنوان یک هسته فناور در طرح شکوفایی پارک علم و فناوری دانشگاه تهران پذیرفته شد و در دی ماه ۱۴۰۱، استودیو اندیشه به‌عنوان شرکت رسمی ثبت شد.",
-    "ما از ابتدا به دنبال ساختن یک نهاد تجاری نبودیم. هدفمان ساختن فضایی بود برای خلق فکرهایی که قرار نیست فقط ارائه شوند، بلکه باید ساخته شوند. مسیرمان پر از تردید، چالش و بازنگری بود، اما هر بار ما را به ساختار دقیق‌تری رساند.",
-    "امروز، استودیو اندیشه فضای مشترکی است میان طراحان، توسعه‌دهندگان، کارآفرینان، پژوهشگران و سرمایه‌گذاران. جایی با یک فلسفه روشن؛ فلسفه‌ای که معقد است، خلق ارزش واقعی، نه از هیجان، بلکه از درک عمیق مسئله، جسارت در طراحی و انضباط در اجرا می‌آید.",
+    "In November 2020, during a friendly conversation, Kian Zareh spoke of the lack of 'good' investors, and Ali Mousavi, the CEO of an investment fund, of the difficulty in finding 'good' and trustworthy teams. That’s when a key question emerged: what does 'good' even mean? The answer was clear;",
+    "There was no precise definition of 'good'—neither for investors nor for investees. Right there, the idea of creating a platform to redefine this relationship was born. Kian and Ghazaleh Ghanbari, a UX designer, designed models that redefined the process of investment and team building. Later, Behzad Boostanchi, a developer with international experience at major companies like Apple, joined them.",
+    "In February 2021, the co-founding agreement for Thirdline Studio was signed by Kian, Ali, Ghazaleh, and Behzad. In July 2021, the team was accepted as a tech core in the Prosperity Plan of the University of Tehran’s Science and Technology Park, and in January 2023, Thirdline Studio was officially registered as a company.",
+    "From the start, we weren’t looking to build just a commercial entity. Our goal was to create a space where ideas don’t just get pitched—they get built. Our journey was full of doubts, challenges, and iterations, but each step brought us closer to a more refined structure.",
+    "Today, Thirdline Studio is a shared space for designers, developers, entrepreneurs, researchers, and investors. A place with a clear philosophy: true value creation comes not from hype, but from deep understanding of problems, bold design, and disciplined execution.",
   ],
   [
     {
       count: 4,
-      text: ["سال فعالیت حرفه‌ای", "ســـــــــــــال", "فعالیت حرفه‌ای"],
+      text: ["Years of Activity", "Years", "of Activity"],
     },
     {
       count: 6,
-      text: ["کسب و کار موفق", "کســــب و کار", "مــــــــوفــــق"],
+      text: ["Successful Businesses", "Businesses", "Successful"],
     },
     {
       count: 50,
-      text: ["فرصت شغلی ایجاد شده", "فرصت شــــغلی", "ایجــاد شــــده"],
+      text: ["Jobs Created", "Job", "Created"],
     },
   ],
 ];
 
 export const TIMELINE = [
   {
-    year: "۱۳۹۹",
+    year: "2020",
     details: [
-      {
-        month: "آبان",
-        event: "شکل‌گیری ایده اولیه",
-      },
-      {
-        month: "بهمن",
-        event: "عقد قرارداد هم‌بنیانگذاری",
-      },
+      { month: "November", event: "Initial idea formation" },
+      { month: "February", event: "Signing co-founding agreement" },
     ],
   },
   {
-    year: "۱۴۰۰",
+    year: "2021",
     details: [
       {
-        month: "تیر",
-        event: "پذیرش در طرح شکوفایی پارک علم و فناوری دانشگاه تهران",
-      },
-      {
-        month: "اسفند",
-        event: "انتشار نسخه اول از اکوسیسم مجازی نوآوری",
-      },
-    ],
-  },
-  {
-    year: "۱۴۰۱",
-    details: [
-      {
-        month: "تیر",
-        event: "طرح برگزیده رویداد تانا استان تهران",
-      },
-      {
-        month: "آذر",
-        event: "پذیرش در دوره رشد پارک علم و فناوری دانشگاه تهران",
-      },
-      {
-        month: "دی",
-        event: "تاسیس رسمی شرکت اندیشه خط سوم",
-      },
-    ],
-  },
-  {
-    year: "۱۴۰۲",
-    details: [
-      {
-        month: "اردیبهشت",
+        month: "July",
         event:
-          "تفاهم راه‌اندازی اکوسیستم مجازی نوآوری با معاونت علمی ریاست جمهوری",
+          "Accepted into University of Tehran's Science Park Prosperity Plan",
       },
       {
-        month: "تیر",
-        event: "رونمایی از اکوسیستم مجازی نوآری اندیشه",
-      },
-      {
-        month: "اسفند",
-        event: "استقرار در پارک علم و فناوری دانشگاه تهران",
+        month: "March",
+        event: "First version of the virtual innovation ecosystem released",
       },
     ],
   },
   {
-    year: "۱۴۰۳",
+    year: "2022",
     details: [
       {
-        month: "خرداد",
-        event: "بازتعریف فعالیت‌های کلیدی استودیو",
+        month: "July",
+        event: "Selected project in Tehran Province’s TANA event",
       },
       {
-        month: "مرداد",
-        event: "طراحی دروازه نوآوری اندیشه",
+        month: "December",
+        event:
+          "Accepted into Growth Stage at University of Tehran’s Science Park",
       },
       {
-        month: "شهریور",
-        event: "راه‌اندازی اسپیناف حوزه سلامت دیجیتال",
+        month: "January",
+        event: "Official registration of Thirdline Khat-e Sevom company",
+      },
+    ],
+  },
+  {
+    year: "2023",
+    details: [
+      {
+        month: "May",
+        event:
+          "MoU with Presidential Office for launching virtual innovation ecosystem",
       },
       {
-        month: "مهر",
-        event: "عضویت استودیو در نظام صنفی رایانه ای",
+        month: "July",
+        event: "Launch of Thirdline Virtual Innovation Ecosystem",
       },
       {
-        month: "آبان",
-        event: "راه‌اندازی اسپیناف حوزه اقتصاد نقره‌ای با برند ریشه",
+        month: "March",
+        event:
+          "Relocated to University of Tehran’s Science and Technology Park",
+      },
+    ],
+  },
+  {
+    year: "2024",
+    details: [
+      { month: "June", event: "Redefinition of studio's key activities" },
+      { month: "August", event: "Design of Thirdline Innovation Gateway" },
+      {
+        month: "September",
+        event: "Launch of digital health spin-off",
       },
       {
-        month: "دی",
-        event: "جذب سرمایه راند اول برای پروژه ریشه",
+        month: "October",
+        event: "Studio joins National ICT Trade Association",
       },
       {
-        month: "بهمن",
-        event: "دریافت مجوز مرکز مشاوره کسب و کار از وزارت صمت",
+        month: "November",
+        event: "Launch of silver economy spin-off under 'Risheh' brand",
+      },
+      {
+        month: "January",
+        event: "Raised seed round for Risheh project",
+      },
+      {
+        month: "February",
+        event: "Obtained Business Consulting License from Ministry of Industry",
       },
     ],
   },
   {
     year: "",
-    details: [
-      {
-        month: "",
-        event: "",
-      },
-    ],
+    details: [{ month: "", event: "" }],
   },
   {
     year: "",
-    details: [
-      {
-        month: "",
-        event: "",
-      },
-    ],
+    details: [{ month: "", event: "" }],
   },
 ];
 
 export const VALUES = [
   {
-    number: "۱.",
-    title: ["تفــــــــــــکر", "و خلاقیت"],
+    number: "1.",
+    title: ["Thinking", "and Creativity"],
     description:
-      "ما باور داریم که هر تحول و نوآوری از اندیشه آغاز می‌شود؛ به همین دلیل، تفکر خلاق و حل مسئله در قلب همه فعالیت‌های ماست.",
+      "We believe every transformation and innovation begins with thought. That’s why creative thinking and problem-solving are at the heart of everything we do.",
   },
   {
-    number: "۲.",
-    title: ["مسئولیت‌پذیری", "و تعهد"],
+    number: "2.",
+    title: ["Responsibility", "and Commitment"],
     description:
-      "نسبت به تیم‌ها، پروژه‌ها و شرکای خود متعهدیم و مسئولیت موفقیت آن‌ها را به‌طور واقعی می‌پذیریم",
+      "We are committed to our teams, projects, and partners, and we genuinely take responsibility for their success.",
   },
   {
-    number: "۳.",
-    title: ["شــــــــفافیت", "و صداقت"],
+    number: "3.",
+    title: ["Transparency", "and Honesty"],
     description:
-      "در تمام همکاری‌ها، ارتباطات و تصمیم‌گیری‌ها شفاف، صادق و قابل اعتماد عمل می‌کنیم",
+      "In all our collaborations, communications, and decisions, we act transparently, honestly, and reliably.",
   },
   {
-    number: "۴.",
-    title: ["هم‌افــــــــزایی", "و مشارکت"],
+    number: "4.",
+    title: ["Synergy", "and Collaboration"],
     description:
-      "اعتقاد داریم که موفقیت حاصل جمع توانمندی‌هاست. برای همین بر مشارکت هوشمندانه و رشد مشترک تمرکز داریم",
+      "We believe success comes from the collective strength of individuals. That’s why we focus on smart collaboration and shared growth.",
   },
   {
-    number: "۵.",
-    title: ["خــــــــــــــــلق", "ارزش پایدار"],
+    number: "5.",
+    title: ["Creating", "Sustainable Value"],
     description:
-      "مأموریت ما فقط ساخت کسب‌وکار نیست؛ ما به دنبال ایجاد ارزش‌هایی هستیم که در بلندمدت برای جامعه، کسب‌وکارها و زیست‌بوم نوآوری ماندگار بماند",
+      "Our mission isn’t just to build businesses; we aim to create values that remain impactful in the long run for society, businesses, and the innovation ecosystem.",
   },
 ];

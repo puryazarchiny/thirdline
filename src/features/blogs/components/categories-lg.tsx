@@ -1,11 +1,4 @@
 // #############################################################################
-// # Imports
-// #############################################################################
-
-// src
-import { formatNumber } from "@/utils";
-
-// #############################################################################
 // # Components
 // #############################################################################
 
@@ -16,7 +9,7 @@ export default function CategoriesLG() {
       {/* # Title                          */}
       {/* ################################ */}
 
-      <h3 className="text-xl font-bold">دسته‌بندی‌های جریان</h3>
+      <h3 className="text-xl font-bold">Flow categories</h3>
 
       <ul>
         {Array.from({ length: 4 }).map((_, index) => (
@@ -26,7 +19,7 @@ export default function CategoriesLG() {
             {/* ################################ */}
 
             <p className="text-text-dark cursor-pointer">
-              دسته‌بندی‌ها {formatNumber(index + 1)}
+              Category {index + 1}
             </p>
 
             {/* ################################ */}
