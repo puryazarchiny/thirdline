@@ -21,9 +21,9 @@ import Video from "@/components/layout/video";
 // #############################################################################
 
 export const metadata: Metadata = {
-  title: "درباره اندیشه",
+  title: "Thirdline Cognition",
   description:
-    "آشنایی با استودیو نوآوری اندیشه، تیمی خلاق و متخصص در زمینه طراحی، توسعه و استراتژی کسب‌وکار. با فلسفه، مسیر و ساختار ما بیشتر آشنا شوید.",
+    "Get to know Thirdline Innovation Studio, a creative and expert team in business design, development, and strategy. Learn more about our philosophy, journey, and structure.",
 };
 
 // #############################################################################
@@ -35,8 +35,8 @@ export default function About() {
     <>
       <main>
         <Title
-          title="درباره اندیشــــه"
-          description="روایتی از فلسفه، مسیر و ساختاری که اندیشه را ساخته است"
+          title="Thirdline Cognition"
+          description="A narrative of the philosophy, journey, and structure that has built Thirdline"
         />
 
         <Gallery />

@@ -17,7 +17,7 @@ export default function Details() {
         <li
           key={index}
           className={cn(
-            "border-border-dark border-r-2 pr-4",
+            "border-border-dark border-l-2 pl-4",
             "lg:flex lg:flex-col lg:border-none lg:pr-0",
           )}
         >

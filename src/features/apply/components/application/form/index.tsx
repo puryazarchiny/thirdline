@@ -25,16 +25,16 @@ type ResponseStatus = "success" | "fail" | "error";
 // #############################################################################
 
 const schema = z.object({
-  projectOrCompanyName: z.string().min(1, "این فیلد اجباری است"),
-  fullName: z.string().min(1, "این فیلد اجباری است"),
-  activityField: z.string().min(1, "این فیلد اجباری است"),
-  activityDescription: z.string().min(1, "این فیلد اجباری است"),
-  mainNeed: z.string().min(1, "این فیلد اجباری است"),
+  projectOrCompanyName: z.string().min(1, "This field is required"),
+  fullName: z.string().min(1, "This field is required"),
+  activityField: z.string().min(1, "This field is required"),
+  activityDescription: z.string().min(1, "This field is required"),
+  mainNeed: z.string().min(1, "This field is required"),
   projectCurrentStatus: z
     .string()
-    .refine((value) => value !== "انتخاب کنید", "این فیلد اجباری است"),
+    .refine((value) => value !== "Select", "This field is required"),
   website: z
-    .url("آدرس وب‌سایت باید با عبارت //:http یا //:https شروع شود")
+    .url("The website address must start with http:// or https://")
     .optional()
     .or(z.literal("")),
   pitchDeck: z
@@ -52,21 +52,21 @@ const schema = z.object({
       } else {
         return true;
       }
-    }, "فایل باید یکی از فرمت‌های ppt، pdf، docx، doc یا pptx باشد"),
+    }, "The file must be one of the formats: ppt, pdf, docx, doc, or pptx"),
   email: z
     .string()
-    .min(1, "این فیلد اجباری است")
-    .email("ایمیل وارد شده معتبر نیست"),
+    .min(1, "This field is required")
+    .email("The entered email is not valid"),
   phone: z
     .string()
-    .min(1, "این فیلد اجباری است")
+    .min(1, "This field is required")
     .refine(
       (value) => /^09[0-9]{9}$/.test(value),
-      "شماره تلفن وارد شده معتبر نیست",
+      "The entered phone number is not valid",
     )
     .refine(
       (value) => String(value).length === 11,
-      "شماره تلفن باید 11 رقم باشد",
+      "The phone number must be 11 digits",
     ),
 });
 
@@ -89,7 +89,7 @@ export default function Form() {
   } = useForm<z.infer<typeof schema>>({
     resolver: zodResolver(schema),
     defaultValues: {
-      projectCurrentStatus: "انتخاب کنید",
+      projectCurrentStatus: "Select",
     },
   });
 
@@ -202,8 +202,8 @@ export default function Form() {
         <div className="flex flex-col gap-2">
           <Input
             id="projectOrCompanyName"
-            label="نام طرح یا شرکت *"
-            placeholder="نام طرح یا شرکت"
+            label="Project / Company Name *"
+            placeholder="Project / Company Name"
             type="text"
             {...register("projectOrCompanyName", { required: true })}
           />
@@ -224,8 +224,8 @@ export default function Form() {
         <div className="flex flex-col gap-2">
           <Input
             id="fullName"
-            label="نام و نام خانوادگی *"
-            placeholder="نام و نام خانوادگی"
+            label="Full Name *"
+            placeholder="Full Name"
             type="text"
             {...register("fullName")}
           />
@@ -245,8 +245,8 @@ export default function Form() {
       <div className="flex flex-col gap-2">
         <Input
           id="activityField"
-          label="حوزه فعالیت *"
-          placeholder="حوزه فعالیت"
+          label="Activity Field *"
+          placeholder="Activity Field"
           type="text"
           {...register("activityField")}
         />
@@ -264,12 +264,12 @@ export default function Form() {
 
       <div className="flex flex-col gap-2">
         <label htmlFor="activityDescription" className="font-medium">
-          شرح کوتاه از فعالیت *
+          Brief description of activity *
         </label>
 
         <textarea
           id="activityDescription"
-          placeholder="توضیح دهید..."
+          placeholder="Explain..."
           rows={4}
           className="placeholder-text-darker focus:border-primary-400 w-full resize-none rounded-lg border-2 border-gray-600 p-4"
           {...register("activityDescription")}
@@ -290,8 +290,8 @@ export default function Form() {
         <div className="flex flex-col gap-2">
           <Input
             id="mainNeed"
-            label="نیاز اصلی در همراهی با اندیشه *"
-            placeholder="نیاز اصلی در همراهی با اندیشه"
+            label="Main need in collaboration with Thirdline *"
+            placeholder="Main need in collaboration with Thirdline"
             type="text"
             {...register("mainNeed")}
           />
@@ -330,9 +330,8 @@ export default function Form() {
 
       <div className="flex flex-col gap-2">
         <Input
-          dir="ltr"
           id="website"
-          label="لینک وب‌سایت"
+          label="Website"
           placeholder="https://example.com"
           type="url"
           {...register("website")}
@@ -351,7 +350,7 @@ export default function Form() {
 
       <div className="flex flex-col gap-2">
         <label htmlFor="pitchDeck" className="font-medium">
-          آپلود پیچ‌دک
+          Upload Pitch Deck
         </label>
 
         <div className="flex items-center justify-center rounded-lg border-2 border-gray-600">
@@ -365,7 +364,7 @@ export default function Form() {
           >
             <Upload size={24} />
 
-            <span>آپلود کنید</span>
+            <span>Upload</span>
           </button>
 
           <input
@@ -413,9 +412,8 @@ export default function Form() {
         <div className="flex flex-col gap-2">
           <Input
             autoComplete="on"
-            dir="ltr"
             id="email"
-            label="آدرس ایمیل *"
+            label="Email *"
             placeholder="you@example.com"
             type="email"
             {...register("email")}
@@ -435,9 +433,8 @@ export default function Form() {
         <div className="flex flex-col gap-2">
           <Input
             autoComplete="on"
-            dir="ltr"
             id="phone"
-            label="شماره تماس *"
+            label="Phone *"
             maxLength={11}
             placeholder="09123456789"
             type="tel"
@@ -461,7 +458,7 @@ export default function Form() {
           disabled={loading}
           className="hover:bg-hover disabled:bg-hover cursor-pointer rounded-lg bg-gray-600 px-8 py-4 font-medium disabled:cursor-not-allowed"
         >
-          {loading ? "در حال ارسال..." : "ارسال درخواست"}
+          {loading ? "Submiting..." : "Submit"}
         </button>
 
         {responseStatus && (
@@ -474,8 +471,8 @@ export default function Form() {
             )}
           >
             {responseStatus === "success"
-              ? "درخواست شما با موفقیت ثبت شد"
-              : "خطایی در ارسال درخواست شما وجود دارد"}
+              ? "Your request has been successfully submitted"
+              : "There was an error submitting your request"}
           </p>
         )}
       </div>

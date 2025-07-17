@@ -105,10 +105,10 @@
 @keyframes typing {
   25%,
   50% {
-    right: calc(100% - 2px);
+    left: calc(100% - 2px);
   }
 
   100% {
-    right: 0;
+    left: 0;
   }
 }

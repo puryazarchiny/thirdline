@@ -16,9 +16,9 @@ import Posts from "@/features/blogs/components/posts";
 // #############################################################################
 
 export const metadata: Metadata = {
-  title: "جریان اندیشه",
+  title: "Thirdline Flow",
   description:
-    "مجموعه‌ای از مقالات، تحلیل‌ها و دیدگاه‌های تیم اندیشه در حوزه‌های نوآوری، کارآفرینی و تکنولوژی. با جریان فکری ما همراه شوید.",
+    "A collection of articles, analyses, and viewpoints from the Thirdline team in the fields of innovation, entrepreneurship, and technology. Join our stream of thought.",
 };
 
 // #############################################################################
@@ -30,8 +30,8 @@ export default function Blogs() {
     <>
       <main>
         <Title
-          title="جریان اندیشــــه"
-          description="روایتی از فلسفه، مسیر و ساختاری که اندیشه را ساخته است"
+          title="Thirdline Flow"
+          description="A narrative of the philosophy, path, and structure that has built Thirdline"
         />
 
         <Posts />

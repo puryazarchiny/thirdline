@@ -19,7 +19,7 @@ export default function About() {
   return (
     <section className="py-section">
       <Container>
-        <div className={cn("flex flex-col gap-8", "lg:flex-row lg:gap-48")}>
+        <div className={cn("flex flex-col gap-8", "lg:flex-row lg:gap-16")}>
           <div className="flex flex-col gap-8">
             <div className="flex flex-col gap-4">
               <Title />

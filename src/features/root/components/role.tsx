@@ -16,14 +16,16 @@ export default function Role() {
       <Container>
         <div className="flex flex-col gap-4">
           <h3 className="relative">
-            <span className="text-fluid-30-48">نقش استودیو در پروژه</span>
+            <span className="text-fluid-30-48">
+              The role of the studio in the project
+            </span>
 
-            <span className="bg-primary-500 absolute -top-2 right-0 h-1 w-[calc(var(--fluid-30-48)*4)] rounded-full" />
+            <span className="bg-primary-500 absolute -top-2 left-0 h-1 w-[calc(var(--fluid-30-48)*4)] rounded-full" />
           </h3>
 
           <div className="flex flex-col gap-2">
             {DATA.map((paragraph, index) => (
-              <p key={index} className="text-text-dark text-justify">
+              <p key={index} className="text-text-dark">
                 {paragraph}
               </p>
             ))}

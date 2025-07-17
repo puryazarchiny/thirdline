@@ -18,53 +18,36 @@ export default function Footer() {
   return (
     <footer className="py-container">
       <Container>
-        <div className={cn("flex flex-col items-center gap-4", "lg:gap-8")}>
-          <div
-            className={cn(
-              "flex flex-col items-center gap-4",
-              "lg:w-full lg:flex-row lg:justify-between lg:gap-0",
-            )}
-          >
-            {/* ################################ */}
-            {/* # Address                        */}
-            {/* ################################ */}
-
-            <p className="text-center text-sm">
-              تهران، خیابان کارگر شمالی، خیابان فرشی‌مقدم، پارک علم و فناوری
-              دانشگاه تهران
-            </p>
-
-            {/* ################################ */}
-            {/* # Socials                        */}
-            {/* ################################ */}
-
-            <ul className="flex gap-4">
-              {DATA.map(({ href, src, alt }, index) => (
-                <li key={index}>
-                  <a
-                    href={href}
-                    target="_blank"
-                    className="hover:bg-hover flex size-8 items-center justify-center rounded-sm"
-                  >
-                    <Image src={src} alt={alt} width={16} height={16} />
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-
+        <div
+          className={cn(
+            "flex flex-col items-center gap-4",
+            "lg:flex-row lg:justify-between lg:gap-0",
+          )}
+        >
           {/* ################################ */}
-          {/* # Divider                        */}
+          {/* # Socials                        */}
           {/* ################################ */}
 
-          <div className="bg-divider-dark h-0.5 w-full" />
+          <ul className="flex gap-4">
+            {DATA.map(({ href, src, alt }, index) => (
+              <li key={index}>
+                <a
+                  href={href}
+                  target="_blank"
+                  className="hover:bg-hover flex size-8 items-center justify-center rounded-sm"
+                >
+                  <Image src={src} alt={alt} width={16} height={16} />
+                </a>
+              </li>
+            ))}
+          </ul>
 
           {/* ################################ */}
           {/* # Copyright                      */}
           {/* ################################ */}
 
           <p dir="ltr" className="text-text-darker text-xs">
-            © 2025 Andisheh Innovation Studio.
+            © 2025 Thirdline Studio.
           </p>
         </div>
       </Container>

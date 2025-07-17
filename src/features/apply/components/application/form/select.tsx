@@ -79,7 +79,7 @@ export default function Select({ onChange, value }: SelectProps) {
         className="cursor-default font-medium"
         onClick={() => buttonRef.current?.focus()}
       >
-        وضعیت فعلی طرح *
+        Current status of the plan *
       </p>
 
       <div ref={selectRef} className="relative w-full">
@@ -92,7 +92,7 @@ export default function Select({ onChange, value }: SelectProps) {
           <span
             className={cn(selectedOption ? "text-text" : "text-text-darker")}
           >
-            {selectedOption?.label || "انتخاب کنید"}
+            {selectedOption?.label || "Select"}
           </span>
 
           <ChevronDown

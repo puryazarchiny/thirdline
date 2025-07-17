@@ -16,9 +16,9 @@ import Projects from "@/features/portfolio/components/projects";
 // #############################################################################
 
 export const metadata: Metadata = {
-  title: "آثار اندیشه",
+  title: "Thirdline Portfolio",
   description:
-    "مجموعه‌ای از پروژه‌ها و کسب‌وکارهای موفقی که با همراهی استودیو نوآوری اندیشه به ثمر نشسته‌اند. نمونه‌کارهای ما را در زمینه‌های مختلف مشاهده کنید.",
+    "A collection of successful projects and businesses that have come to fruition with the support of Thirdline Innovation Studio. See our portfolio in various fields.",
 };
 
 // #############################################################################
@@ -30,14 +30,8 @@ export default function Portfolio() {
     <>
       <main>
         <Title
-          title="آثار اندیشــــه"
-          description="نمونه‌هایی از آن‌چه با اندیشه همراه شده آن‌چه در این بخش می‌بینید،
-            صرفاً نمونه‌کار یا پروژه نیست؛ بلکه بازتابی است از فرآیندهای واقعی
-            ساخت، آزمون، بازنگری و رشد.برخی از آثار اندیشه، در قالب شرکت‌های
-            مستقل شکل گرفته‌اند. برخی دیگر، پروژه‌هایی‌اند که در قالب بسته‌های
-            کشف، خلق، توسعه، تجاری‌سازی و سرمایه‌گذاری پیش رفته‌اند. همه این
-            آثار، محصول همراهی با تیم‌هایی‌اند که انتخاب شدند، متعهد ماندند، و
-            مسیر را تا ساختن طی کردند."
+          title="Thirdline Portfolio"
+          description="What you see in this section is not merely a portfolio or a project; it is a reflection of the real processes of building, testing, revising, and growing. Some of Thirdline's works have taken the form of independent companies. Others are projects that have progressed through packages of discovery, creation, development, commercialization, and investment. All these works are the product of accompanying teams that were selected, remained committed, and followed the path to creation."
         />
 
         <Projects />

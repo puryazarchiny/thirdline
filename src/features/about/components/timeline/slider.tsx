@@ -57,8 +57,8 @@ export default function Slider({
         <SwiperSlide key={index}>
           <div
             className={cn(
-              "border-border flex h-[512px] flex-col justify-between p-4",
-              index < 5 && "border-r-2",
+              "border-border flex h-[576px] flex-col justify-between p-4",
+              index < 5 && "border-l-2",
               "lg:h-[640px]",
             )}
           >
@@ -68,7 +68,7 @@ export default function Slider({
 
             <p
               className={cn(
-                "translate-4 -rotate-90 self-start text-5xl",
+                "-translate-x-4 translate-y-8 rotate-90 self-start text-5xl",
                 index === activeYear && "text-primary-500",
               )}
             >

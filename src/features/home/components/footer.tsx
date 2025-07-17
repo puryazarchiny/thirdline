@@ -47,7 +47,7 @@ export default function Footer() {
           {/* ################################ */}
 
           <p dir="ltr" className="text-text-darker text-xs">
-            © 2025 Andisheh Innovation Studio.
+            © 2025 Thirdline Studio.
           </p>
         </div>
       </Container>

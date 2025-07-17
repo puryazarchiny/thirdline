@@ -18,7 +18,7 @@ export default function Story() {
   return (
     <section className="py-section">
       <Container>
-        <div className={cn("flex flex-col gap-8", "lg:gap-0")}>
+        <div className={cn("flex flex-col gap-8", "lg:gap-4")}>
           <Title />
 
           <div

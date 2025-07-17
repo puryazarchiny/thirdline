@@ -28,17 +28,16 @@ export default function Faces() {
           {/* # Content                        */}
           {/* ################################ */}
 
-          <hgroup className="flex flex-col gap-4 text-justify">
+          <hgroup className="flex flex-col gap-4">
             <h3 className="text-fluid-18-24">
-              پشت هر ایده، هر مسیر و هر تصمیم، چهره‌هایی ایستاده‌اند که این
-              داستان را واقعی کرده‌اند.
+              Behind every idea, every path, and every decision, there are faces
+              that have made this story real.
             </h3>
 
             <p className="text-text-dark">
-              با
-              <span className="text-text font-bold"> اهالی اندیشـــــه </span>
-              آشنا شوید؛ چهره‌هایی که این مسیر را ساخته‌اند و هر روز دوباره
-              می‌سازند
+              Meet the
+              <span className="text-text font-bold"> people of Thirdline</span>;
+              the faces that have built this path and rebuild it every day.
             </p>
           </hgroup>
 
@@ -50,7 +49,7 @@ export default function Faces() {
             href="/members"
             className="text-primary-500 hover:bg-hover hover:text-text z-10 shrink-0 rounded-md bg-neutral-50 px-8 py-4"
           >
-            آشنایی با چهره‌ها
+            Meet the Faces
           </Link>
 
           {/* ################################ */}
@@ -59,7 +58,7 @@ export default function Faces() {
 
           <Image
             src={"/images/noise.png"}
-            alt="نویز پس زمینه"
+            alt="Background Noise"
             width={1200}
             height={320}
             className="absolute inset-0 h-full opacity-50"

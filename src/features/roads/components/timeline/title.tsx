@@ -22,7 +22,7 @@ export default function Title({ number, title, subTitle }: TitleProps) {
       <p className="text-primary-500 text-fluid-36-60 relative">
         <span>{number}</span>
 
-        <span className="bg-primary-500 absolute -top-1 right-0 h-1 w-full rounded-full" />
+        <span className="bg-primary-500 absolute -top-1 left-0 h-1 w-full rounded-full" />
       </p>
 
       {/* ################################ */}

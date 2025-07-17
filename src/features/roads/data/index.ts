@@ -4,37 +4,39 @@
 
 export const TIMELINE = [
   {
-    number: "۰۱",
-    title: "در مســــــــیر نوآوری",
-    subTitle: "زیرساخت‌ها و راهکارهایی برای توانمندسازی اکوسیستم نوآوری",
+    number: "01",
+    title: "On the Path of Innovation",
+    subTitle:
+      "Infrastructures and solutions for empowering the innovation ecosystem",
     description: [
-      "در این مسیر، ما به سازمان‌ها، پارک‌ها، دولت‌ها و نهادهای خصوصی کمک می‌کنیم تا محصولات، خدمات و پلتفرم‌هایی نوآورانه خلق کنند؛ از ارائه خدمات حرفه‌ای در قالب کشف، خلق و توسعه گرفته تا ساخت محصولات اختصاصی برای توانمندسازی بازیگران اکوسیستم نوآوری.",
-      "در همین راستا، مجموعه‌ای از پلتفرم‌ها و راهکارهای نوآوری را طراحی کرده‌ایم که در قالب دروازه نوآوری اندیشه و با نام تجاری اینوگیت ارائه می‌شوند. در این دروازه، کاربر به تمام خدمات و ابزارهای تخصصی ما در زمینه نوآوری دسترسی دارد؛ از خرید خدمات سکوی نوآوری گرفته تا اکوسیستم مجازی و آکادمی نوآوری.",
+      "In this path, we help organizations, parks, governments, and private institutions to create innovative products, services, and platforms; from providing professional services in the form of discovery, creation, and development to building dedicated products for empowering the actors of the innovation ecosystem.",
+      "In this regard, we have designed a set of innovation platforms and solutions that are presented in the form of Thirdline's innovation gate and with the brand name InnoGate. In this gate, the user has access to all our specialized services and tools in the field of innovation; from purchasing innovation platform services to the virtual ecosystem and innovation academy.",
     ],
     href: "#",
-    text: "لینک دسترسی به اینوگیت",
+    text: "Link to InnoGate",
   },
   {
-    number: "۰۲",
-    title: "در مســــــــیر سلامت",
-    subTitle: "طراحی ساختاری پایدار برای سلامت آینده ایران با زی",
+    number: "02",
+    title: "On the Path of Health",
+    subTitle:
+      "Designing a sustainable structure for the future of Iran's health with Z",
     description: [
-      "در حوزه سلامت، نوآوری نیاز به درک عمیق حوزه پزشکی، قواعد حاکمیتی و حساسیت فرهنگی دارد. برای این هدف، ما استودیوی اندیشه را به بنیان‌گذاری یک شرکت مستقل رساندیم؛ راهکارهای سلامت زی.",
-      "زی، شرکتی با سهام‌داری پزشکان، متخصصان، پژوهشگران و نوآوران حوزه سلامت است که هدفش طراحی و توسعه راهکارهای جامع در حوزه پایش سلامت فردی، تشخیص زودهنگام، پرونده الکترونیک سلامت و آگاهی‌رسانی عمومی است.",
-      "این شرکت با بهره‌گیری از هوش مصنوعی، دانش بومی، ساختار شتابدهنده تخصصی سلامت و توجه جدی به مسئولیت اجتماعی، در حال ساخت پلتفرم‌هایی است که صنعت سلامت ایران را در مسیر «پیشگیری، تشخیص زودهنگام و سلامت پایدار» بازتعریف کند.",
+      "In the field of health, innovation requires a deep understanding of the medical field, governance rules, and cultural sensitivity. For this purpose, we led Thirdline Studio to found an independent company; Z Health Solutions.",
+      "Z is a company with the shareholding of doctors, specialists, researchers, and innovators in the health field, whose goal is to design and develop comprehensive solutions in the field of individual health monitoring, early diagnosis, electronic health records, and public awareness.",
+      "This company, by using artificial intelligence, local knowledge, a specialized health accelerator structure, and serious attention to social responsibility, is building platforms that will redefine Iran's health industry on the path of 'prevention, early diagnosis, and sustainable health'.",
     ],
     href: "#",
-    text: "لینک دسترسی به زی",
+    text: "Link to Z",
   },
   {
-    number: "۰۳",
-    title: "در مســــــــیر سرمایه‌گذاری",
-    subTitle: "سرمایه‌گذاری برای رشد واقعی و تجاری‌سازی",
+    number: "03",
+    title: "On the Path of Investment",
+    subTitle: "Investment for real growth and commercialization",
     description: [
-      "در اندیشه، سرمایه‌گذاری فقط به‌معنای تزریق منابع مالی نیست؛ بلکه بخشی از مسیر طراحی‌شده برای رشد واقعی کسب‌وکارهای نوآور است. ما در این مسیر، هم نقش مشاور را برای تیم‌هایی که به دنبال جذب سرمایه‌اند ایفا می‌کنیم، و هم به‌عنوان سرمایه‌گذار برای تیم‌هایی که در زنجیره ارزش ما قرار می‌گیرند وارد می‌شویم. سرمایه‌گذاری‌های اندیشه به‌صورت مرحله‌ای، شاخص محور و در بازه زمانی ۳۰ ماهه انجام می‌شود.",
-      "تا امروز، تیم‌های متعددی وارد فرآیند ارزیابی استودیو اندیشه شده‌اند و سه سرمایه‌گذاری موفق از دل این مدل شکل گرفته است. برای دریافت اطلاعات بیشتر و ورود به این مسیر، کافی‌ست از طریق بخش «همراهی اندیشه» اقدام کنید.",
+      "At Thirdline, investment is not just about injecting financial resources; it is part of the designed path for the real growth of innovative businesses. In this path, we both act as a consultant for teams that are looking to attract investment, and we also enter as an investor for teams that are in our value chain. Thirdline's investments are made in stages, index-based, and in a 30-month period.",
+      "To date, numerous teams have entered the Thirdline Studio evaluation process, and three successful investments have been formed from this model. To get more information and enter this path, just proceed through the 'Thirdline Accompaniment' section.",
     ],
     href: "#",
-    text: "لینک دسترسی به همراهی اندیشه",
+    text: "Link to Thirdline Accompaniment",
   },
 ];

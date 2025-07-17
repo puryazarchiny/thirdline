@@ -4,12 +4,12 @@
 
 export const INTRO = [
   [
-    "همراهی اندیشه، یک قرارداد خدماتی نیست؛ ورود به یک ساختار است. ما در استودیو اندیشه، با تیم‌هایی همراه می‌شویم که در لایه‌ای عمیق‌تر از اجرا، به طراحی استراتژیک، رشد هدفمند و خلق اثر متعهد باشند.",
-    "اگر شما یک تیم نوآور با محصول اولیه، ایده روشن یا راه‌حلی مبتنی بر نیاز واقعی هستید، می‌توانید وارد مسیری شوید که به پشتوانه تجربه،            شبکه، سرمایه و ساختار، طرح‌تان را به یک کسب‌وکار تجاری‌سازی‌شده و مقیاس‌پذیر تبدیل کند.",
+    "Thirdline accompaniment is not a service contract; it is an entry into a structure. At Thirdline Studio, we accompany teams that are committed to strategic design, purposeful growth, and creating impact in a layer deeper than implementation.",
+    "If you are an innovative team with a primary product, a clear idea, or a solution based on a real need, you can enter a path that, with the support of experience, network, capital, and structure, will turn your project into a commercialized and scalable business.",
   ],
   [
-    "ما با تیم‌هایی کار می‌کنیم که در یکی از سه مسیر نوآوری، سلامت یا سرمایه‌گذاری جای می‌گیرند و آمادگی ورود به یک همکاری ۳۰ ماهه را دارند. این همکاری بر اساس قرارداد سهام‌محور تعریف می‌شود و شامل مواردی نظیر طراحی مدل کسب‌وکار، بازآفرینی برند، جذب سرمایه، توسعه بازار و ایجاد زیرساخت‌های فنی یا عملیاتی است.",
-    "در این مدل، استودیو اندیشه هم‌زمان نقش شریک رشد، راهبر استراتژیک و حلقه اتصال به منابع را ایفا می‌کند و انتقال سهام نیز بر مبنای تحقق شاخص‌های توافق شده و به صورت مرحله‌به‌مرحله انجام می‌پذیرد.",
+    "We work with teams that fit into one of the three paths of innovation, health, or investment and are ready to enter into a 30-month collaboration. This collaboration is defined based on an equity-based contract and includes items such as business model design, brand recreation, capital raising, market development, and the creation of technical or operational infrastructure.",
+    "In this model, Thirdline Studio simultaneously plays the role of a growth partner, a strategic guide, and a link to resources, and the transfer of shares is also carried out based on the realization of agreed-upon indicators and in a step-by-step manner.",
   ],
 ];
 
@@ -22,38 +22,38 @@ export const SELECT = [
 
 export const STEPS = [
   {
-    step: ["گام", "اول"],
-    title: "ثبت درخواست و ارزیابی طرح",
+    step: ["Step", "One"],
+    title: "Request Registration and Plan Evaluation",
     description:
-      "پس از ثبت درخواست توسط تیم متقاضی، طرح اولیه، وضعیت تیم، چشم‌انداز محصول و هم‌راستایی با مسیرهای اندیشه بررسی می‌شود. در صورت تأیید اولیه، جلسات ارزیابی تکمیلی و گفت‌وگوهای عمیق برگزار خواهد شد.",
-    estimatedTime: "۳۰ روز کاری",
+      "After the request is registered by the applicant team, the initial plan, team status, product vision, and alignment with Thirdline’s paths are reviewed. If the initial approval is granted, supplementary evaluation sessions and in-depth discussions will be held.",
+    estimatedTime: "30 business days",
   },
   {
-    step: ["گام", "دوم"],
-    title: "توافق بر شاخص‌ها و عقد قرارداد",
+    step: ["Step", "Two"],
+    title: "Agreement on Indicators and Contract Signing",
     description:
-      "در این مرحله، بر سر مدل همکاری، تعهدات طرفین، شاخص‌های کلیدی موفقیت و سازوکار انتقال سهام توافق می‌شود و قرارداد همکاری منعقد خواهد شد.",
-    estimatedTime: "۳۰ روز کاری",
+      "In this stage, an agreement is made on the cooperation model, the obligations of the parties, key success indicators, and the mechanism for transferring shares, and the cooperation contract will be concluded.",
+    estimatedTime: "30 business days",
   },
   {
-    step: ["گام", "سوم"],
-    title: "طراحی زیرساخت تجاری‌سازی",
+    step: ["Step", "Three"],
+    title: "Designing the Commercialization Infrastructure",
     description:
-      "در این گام، زیرساخت‌های لازم برای ورود به بازار شکل می‌گیرد؛ از بازطراحی مدل کسب‌وکار و تدوین استراتژی رشد، تا برنامه‌ریزی بازاریابی، بازسازی برند، تعریف کانال‌های فروش، نگارش طرح تجاری و برنامه مالی. علاوه بر این، تیم به شبکه ارتباطی و تخصصی استودیو نیز متصل خواهد شد.",
-    estimatedTime: "۶ ماه تقویمی",
+      "In this step, the necessary infrastructure for entering the market is formed; from redesigning the business model and developing a growth strategy to marketing planning, brand rebuilding, defining sales channels, and writing a business and financial plan. In addition, the team will be connected to the studio’s communication and professional network.",
+    estimatedTime: "6 calendar months",
   },
   {
-    step: ["گام", "چهارم"],
-    title: "ورود به بازار و تثبیت درآمد اولیه",
+    step: ["Step", "Four"],
+    title: "Market Entry and Initial Revenue Stabilization",
     description:
-      "در گام چهارم فاز اجرا آغاز می‌شود؛ پیاده‌سازی برنامه رشد، جذب کاربران اولیه، راه‌اندازی جریان‌های درآمدی، پایدارسازی مدل مالی، ورود جدی به بازار و در صورت نیاز، جذب سرمایه اولیه. هدف این گام، اعتبارسنجی و تثبیت کارکردهای کلیدی کسب‌وکار است.",
-    estimatedTime: "۱۲ ماه تقویمی",
+      "In the fourth step, the implementation phase begins; implementing the growth plan, attracting initial users, launching revenue streams, stabilizing the financial model, making a serious entry into the market, and, if necessary, raising initial capital. The goal of this step is to validate and stabilize the key functions of the business.",
+    estimatedTime: "12 calendar months",
   },
   {
-    step: ["گام", "پنجم"],
-    title: "مقیاس‌پذیری و رشد حداکثری",
+    step: ["Step", "Five"],
+    title: "Scalability and Maximum Growth",
     description:
-      "در گام نهایی، زیرساخت‌ها گسترش می‌یابد، درآمد تثبیت می‌شود و مسیر ورود به بازارهای جدید یا جذب سرمایه بزرگ دنبال خواهد شد. تمرکز این مرحله، روی رشد پایدار و تثبیت جایگاه کسب‌وکار در صنعت هدف است.",
-    estimatedTime: "۱۲ ماه تقویمی",
+      "In the final step, the infrastructure is expanded, revenue is stabilized, and the path to entering new markets or raising large capital is pursued. The focus of this stage is on sustainable growth and consolidating the business’s position in the target industry.",
+    estimatedTime: "12 calendar months",
   },
 ];

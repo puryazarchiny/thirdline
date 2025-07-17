@@ -15,7 +15,7 @@ export default function Typewriter() {
       {DATA.map((word, index) => (
         <li
           key={index}
-          className="relative top-0 animate-[slide_9s_steps(3)_infinite] pl-2"
+          className="relative top-0 animate-[slide_9s_steps(3)_infinite] pr-2"
         >
           {/* ################################ */}
           {/* # Word                           */}
@@ -27,7 +27,7 @@ export default function Typewriter() {
           {/* # Cursor                         */}
           {/* ################################ */}
 
-          <span className="bg-body border-r-border absolute top-0 right-0 h-full w-full animate-[typing_3s_infinite] border-r-2" />
+          <span className="bg-body border-l-border absolute top-0 left-0 h-full w-full animate-[typing_3s_infinite] border-l-2" />
         </li>
       ))}
     </ul>

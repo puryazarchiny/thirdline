@@ -21,8 +21,8 @@ export default function Root() {
     <>
       <main>
         <Title
-          title="پلتفرم ریشــــه"
-          description="ریشه یک پلتفرم جامع برای پاسخ‌گویی به نیازهای رو‌به‌رشد جمعیت سالمند ایران است"
+          title="Risheh Platform"
+          description="Risheh is a comprehensive platform designed to meet the growing needs of Iran's elderly population"
         />
 
         <Gallery />

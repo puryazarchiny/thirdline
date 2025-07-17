@@ -19,7 +19,7 @@ export default function TopPostsLG() {
       {/* # Main Title                     */}
       {/* ################################ */}
 
-      <h3 className="text-xl font-bold">پست‌های برتر جریان</h3>
+      <h3 className="text-xl font-bold">Top Flow Posts</h3>
 
       <ul>
         {Array.from({ length: 4 }).map((_, index) => (
@@ -38,7 +38,10 @@ export default function TopPostsLG() {
               {/* ################################ */}
 
               <Link href="#">
-                <h3>روایت شکل‌گیری اندیشه؛ نه یک شروع، بلکه یک تصمیم</h3>
+                <h3>
+                  The Story of Thirdline&apos;s Formation; Not a Beginning, but
+                  a Decision
+                </h3>
               </Link>
             </div>
 
@@ -47,9 +50,9 @@ export default function TopPostsLG() {
             {/* ################################ */}
 
             <div className="flex items-center gap-8 text-xs">
-              <p className="bg-body-lightest rounded-sm p-2">تگ موضوع</p>
+              <p className="bg-body-lightest rounded-sm p-2">Topic Tag</p>
 
-              <p className="text-text-dark">۱ اردیبهشت ۱۴۰۴</p>
+              <p className="text-text-dark">April 21, 2025</p>
             </div>
 
             {/* ################################ */}

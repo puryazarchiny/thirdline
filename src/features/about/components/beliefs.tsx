@@ -24,20 +24,20 @@ export default function Beliefs() {
 
           <div className="flex flex-col gap-4">
             <h3 className="relative">
-              <span className="text-fluid-30-48">
-                آنچه به آن بــــاور داریم
-              </span>
+              <span className="text-fluid-30-48">What We Believe In</span>
 
-              <span className="bg-primary-500 absolute -top-2 right-0 h-1 w-[calc(var(--fluid-30-48)*4)] rounded-full" />
+              <span className="bg-primary-500 absolute -top-2 left-0 h-1 w-[calc(var(--fluid-30-48)*4)] rounded-full" />
             </h3>
 
-            <p className="text-text-dark text-justify">
-              پشت هر تصمیم، طراحی و مشارکت در استودیو اندیشه، مجموعه‌ای از
-              باورهای ریشه‌دار ایستاده‌اند؛ باورهایی که نه‌تنها مسیر کاری ما،
-              بلکه روابط انسانی، معیارهای همکاری، و تعریف ما از
-              &quot;موفقیت&quot; را شکل می‌دهند. آنچه ما را از یک ارائه‌دهنده
-              خدمات، به یک همراه واقعی در مسیر ساختن تبدیل می‌کند، مأموریت،
-              چشم‌انداز، مسئولیت اجتماعی و فرهنگ کاری استودیو اندیشه است.
+            <p className="text-text-dark">
+              Behind every decision, design, and partnership at Thirdline
+              Studio, lies a set of deep-rooted beliefs. These beliefs shape not
+              only our professional path but also our human relationships,
+              collaboration standards, and our definition of
+              &quot;success.&quot; What transforms us from a service provider
+              into a true partner on the building journey is Thirdline
+              Studio&apos;s mission, vision, social responsibility, and work
+              culture.
             </p>
           </div>
 
@@ -54,7 +54,7 @@ export default function Beliefs() {
                   <p className="text-text-darker text-lg">{subTitle}</p>
                 </hgroup>
 
-                <p className="text-text-dark text-justify">{description}</p>
+                <p className="text-text-dark">{description}</p>
               </li>
             ))}
           </ul>

@@ -26,14 +26,12 @@ export default function Title({ title, description }: TitleProps) {
         <hgroup
           className={cn(
             "flex flex-col gap-4",
-            "lg:flex-row lg:items-center lg:justify-between lg:gap-0",
+            "lg:flex-row lg:items-center lg:justify-between",
           )}
         >
-          <h2 className="text-fluid-36-60 shrink-0">{title}</h2>
+          <h2 className="text-fluid-36-60">{title}</h2>
 
-          <p className="text-text-darker max-w-96 text-justify">
-            {description}
-          </p>
+          <p className="text-text-darker max-w-96 shrink-0">{description}</p>
         </hgroup>
       </Container>
     </header>

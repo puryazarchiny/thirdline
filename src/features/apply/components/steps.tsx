@@ -72,9 +72,7 @@ export default function Steps() {
                 {/* # Description                    */}
                 {/* ################################ */}
 
-                <p className="text-text-dark grow text-justify">
-                  {description}
-                </p>
+                <p className="text-text-dark grow">{description}</p>
 
                 {/* ################################ */}
                 {/* # Time (viewport < 1024)         */}
@@ -109,17 +107,18 @@ export default function Steps() {
         <Container className="flex h-full flex-col justify-center gap-4">
           <h3 className="relative">
             <span className="text-fluid-30-48">
-              مسیر همراهی چگونه پیش می‌رود؟
+              How does the accompaniment path proceed?
             </span>
 
-            <span className="bg-text absolute -top-2 right-0 h-1 w-[calc(var(--fluid-30-48)*4)] rounded-full" />
+            <span className="bg-text absolute -top-2 left-0 h-1 w-[calc(var(--fluid-30-48)*4)] rounded-full" />
           </h3>
 
-          <p className="text-text-dark text-justify">
-            فرآیند همکاری با استودیو اندیشه بر پایه یک چارچوب مرحله‌ای طراحی شده
-            که طی آن، تیم‌ها به‌صورت تدریجی و مبتنی بر تحقق شاخص‌های کلیدی، وارد
-            مسیر رشد و تجاری‌سازی می‌شوند. این همکاری به‌طور معمول طی پنج گام
-            اصلی انجام می‌شود.
+          <p className="text-text-dark">
+            The collaboration process with Thirdline Studio is designed based on
+            a staged framework, during which teams gradually enter the path of
+            growth and commercialization based on the achievement of key
+            indicators. This collaboration is usually carried out in five main
+            steps.
           </p>
         </Container>
       </div>

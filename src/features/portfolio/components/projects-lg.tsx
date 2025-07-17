@@ -5,7 +5,7 @@
 // #############################################################################
 
 // node_modules
-import { ArrowUpLeft } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
@@ -117,9 +117,9 @@ export default function ProjectsLG({
             href={href}
             className="bg-primary-500 hover:bg-hover flex items-center gap-2 rounded-sm p-2 text-sm"
           >
-            <span>مشاهده پروژه</span>
+            <span>View project</span>
 
-            <ArrowUpLeft />
+            <ArrowUpRight />
           </Link>
         </div>
       )}

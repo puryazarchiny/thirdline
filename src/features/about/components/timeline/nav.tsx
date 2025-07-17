@@ -58,7 +58,7 @@ export default function Nav({ activeYear, onYearClick }: NavProps) {
           disabled={activeYear === 0}
           className="prev hover:text-hover disabled:text-text-darker cursor-pointer"
         >
-          <CircleChevronRight />
+          <CircleChevronLeft />
         </button>
 
         <button
@@ -66,7 +66,7 @@ export default function Nav({ activeYear, onYearClick }: NavProps) {
           disabled={activeYear === 4}
           className="next hover:text-hover disabled:text-text-darker cursor-pointer"
         >
-          <CircleChevronLeft />
+          <CircleChevronRight />
         </button>
       </div>
     </nav>
