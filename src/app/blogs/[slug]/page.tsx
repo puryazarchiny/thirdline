@@ -17,6 +17,8 @@ import { cn } from "@/utils";
 // # Components
 // #############################################################################
 
+export const runtime = "edge";
+
 export default function Blog() {
   return (
     <>
